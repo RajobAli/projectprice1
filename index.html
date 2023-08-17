@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: auto auto auto;
+       
+            padding: 10px;
+        }
+        .row{
+            border: 2px solid red;
+            padding: 20px;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="card-container row">
+        <h5>Snow White</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat?</p>
+        <h6 id="price">price 50 $</h6>
+        <button onclick="handleClickBtn(this)" class="btn box-btn">One</button>
+
+    </div>
+  
+    <div class="card-container row">
+        <h5>Black</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat?</p>
+        <h6 id="price">price 70 $</h6>
+        <button onclick="handleClickBtn(this)" class="btn box-btn">Two</button>
+
+    </div>
+    <div class="card-container row">
+        <h5>Blue Rose</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, repellat?</p>
+        <h6 id="price">price 100 $</h6>
+        <button onclick="handleClickBtn(this)" class="btn box-btn">Three</button>
+
+    </div>
+   <div>
+    <h1>Code :Hero</h1>
+    <h3 class="selected-items" id="selected-items">
+        <h3 id="total">Total :</h3>
+        <h3 id="discount">Discount :</h3>
+
+    </h3>
+   </div>
+
+
+</div>
+ 
+
+
+    
+<script src="index.js"></script>
+    
+</body>
+</html>
